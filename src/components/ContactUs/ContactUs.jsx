@@ -1,4 +1,6 @@
 import React from 'react'
+import {BsPhone} from 'react-icons/bs'
+import { GeoAlt,Envelope } from 'react-bootstrap-icons'
 
 const ContactUs = () => {
     return (
@@ -15,26 +17,27 @@ const ContactUs = () => {
             <div class="col-lg-5 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                 <div class="info">
                 <div class="address">
-                    <i class="bi bi-geo-alt"></i>
+                    <i class="bi bi-geo-alt"><GeoAlt/></i>
                     <h4>Location:</h4>
                     <p>House-1, Road-3, Block-A, Mirpur-10, Dhaka, Bangladesh.</p>
                 </div>
 
                 <div class="email">
-                    <i class="bi bi-envelope"></i>
+                    <i class="bi bi-envelope"><Envelope /></i>
                     <h4>Email:</h4>
                     <p>help@dotpotit.com</p>
                 </div>
 
                 <div class="phone">
-                    <i class="bi bi-phone"></i>
+                    <i class="bi bi-phone"><BsPhone /></i>
                     <h4>Call:</h4>
                     <p>+880 1817 176 192</p>
                 </div>
 
-                {/* <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.247472043089!2d90.3658077145906!3d23.80979748456011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c154f4caa0ad%3A0x31fecdb3c5351d8d!2sDotpot%20iT!5e0!3m2!1sen!2sbd!4v1675153448200!5m2!1sen!2sbd"
-                    frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> */}
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.247472043089!2d90.3658077145906!3d23.80979748456011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c154f4caa0ad%3A0x31fecdb3c5351d8d!2sDotpot%20iT!5e0!3m2!1sen!2sbd!4v1675153448200!5m2!1sen!2sbd"
+                frameborder="0" 
+                style={{border:"0", width: "100%", height: "290px"}} allowfullscreen></iframe>
                 </div>
 
             </div>
