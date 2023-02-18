@@ -1347,7 +1347,7 @@ text-decoration: none;
 color: #eb5d1e;
 }
 
-#footer .footer-top .social-links a {
+#footer .footer-top .social-links .footerIcon {
 font-size: 18px;
 display: inline-block;
 background: #eb5d1e;
@@ -1362,7 +1362,7 @@ height: 36px;
 transition: 0.3s;
 }
 
-#footer .footer-top .social-links a:hover {
+#footer .footer-top .social-links .footerIcon:hover {
 background: #ef7f4d;
 color: #ccc;
 text-decoration: none;
